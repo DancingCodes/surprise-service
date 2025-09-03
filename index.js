@@ -10,6 +10,6 @@ const routes = require('./routes')
 app.use(routes);
 
 // 启动服务器
-app.listen(3004, () => {
+app.listen(3005, () => {
     console.log('服务启动成功🚀');
 });
